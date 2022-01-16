@@ -12,17 +12,44 @@
     <!--Header-->
     <header class="d-flex justify-content-between">
         <h4>View High Scores</h4>
-        <h4>Time: 75</h4>
+        <h4 class="time">Time: 75</h4>
     </header>
+
+    <!-- Quiz Intro -->
     <section class="quiz-box">
         <h1>Coding Quiz</h1>
         <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
         <button class="start">Start Quiz</button>
     </section>
+
+    <!-- Quiz Questions -->
+    <section class="questions">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <h2 id="question">I'm a question</h2>
+                <ul class="px-0 py-0 nobullets">
+                    <li class="mb-3"><button id="answer1" value="0" type="button"
+                            class="btn btn-success ansBtn">Answer1</button></li>
+                    <li class="mb-3"><button id="answer2" value="1" type="button"
+                            class="btn btn-success ansBtn">Answer2</button></li>
+                    <li class="mb-3"><button id="answer3" value="2" type="button"
+                            class="btn btn-success ansBtn">Answer3</button></li>
+                    <li class="mb-3"><button id="answer4" value="3" type="button"
+                            class="btn btn-success ansBtn">Answer4</button></li>
+                </ul>
+                <div id="rightOrWrong" class="font-weight-light font-italic">
+                    <hr>
+                    <!--  -->
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!--Footer-->
     <footer>
 
     </footer>
-    
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
