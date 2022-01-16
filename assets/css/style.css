@@ -1,0 +1,10 @@
+body {
+    padding: 20px;
+}
+
+.quiz-box {
+    border: solid rgb(172, 49, 172) 5px;
+    padding: 50px;
+    margin: 50px 20%;
+    align-items: center;
+}
